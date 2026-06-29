@@ -144,7 +144,7 @@ export default function ProfilePage() {
                   <div key={idx} className="flex gap-4">
                     <div className="flex flex-col items-center">
                       <div className="w-10 h-10 rounded-full bg-[#1e3a5f] text-white flex items-center justify-center text-xs font-bold flex-shrink-0">
-                        {item.year.slice(-2)}
+                        {idx + 1}
                       </div>
                       {idx < timeline.length - 1 && (
                         <div className="w-0.5 flex-1 bg-gray-200 mt-2" />
